@@ -1,0 +1,196 @@
+header {
+    position: relative;
+    height: 50px;
+}
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 50px;
+    background-color:#212121;
+    z-index: 2;
+}
+.menu   {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 12.5px 70px;
+}
+.menu_item {
+    border-right: 2px dotted #FFFFFF;
+    padding-right: 45px;
+}
+.menu_link {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+.subheader {
+    top: 50px;
+    position: absolute;
+    height: 87px;    
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+.subheader .logo_link {
+    margin-top: 17px;
+    display: block;
+}
+.subheader .logo_descr {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 13px;
+    color: #FFFFFF;
+}
+.subheader .call_descr {
+    text-align: right;
+    margin-top: 19px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    color: #FFFFFF;
+    
+}
+.subheader .number_link {
+    display: block;
+    text-align: right;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+.subheader .call_btn {
+    margin-top: 20px;
+    width: 172px;
+    height: 46px;
+    border: none;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -3px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.partners {
+    min-height: 799px;
+    background: url('../img/uber_bg.png') center center/cover no-repeat;
+}
+.partners h1 {
+    margin-top: 151px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.partners h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 34px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.partners .partners_descr {
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.partners .partners_btn {
+    display: block;
+    margin: 0 auto;
+    margin-top: 120px;
+    width: 259px;
+    height: 63px;
+    background: linear-gradient(0deg, #1EACC7 0%, #4CE2FF 100%);
+    box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 63px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.bla {
+    height: 500px;
+}
+.benefits {
+    height: 856px;
+    padding: 10px 0 30px 0;
+}
+.benefits_our   {
+    margin: 0 auto;
+    width: 115px;
+    height: 27px;
+    background-color: black ;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 11px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8px;
+}
+.benefits_reason_title {
+    margin-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 48px;
+    color: #222222;
+    text-align: center;
+    text-transform: uppercase;
+}
+.benefits .benefits_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+.benefits .benefits_item .benefits_round {
+    margin-right: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.benefits .benefits_descr {
+    width: 341px;
+}
+.benefits .benefits_item .benefits_subtitle {
+    line-height: 21px;
+    color: #1eacc7;
+    font-size: 17px;
+    font-weight: 400;
+} 
+.benefits .benefits_item .benefits_text { 
+    color: #202020;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
